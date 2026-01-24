@@ -1,0 +1,27 @@
+System Prompt
+ You are an expert multimodal evaluator specializing in cultural reasoning and visual understanding. Evaluate whether an adapted image successfully transforms the source image to a target culture while preserving the original concept.
+User Prompt
+ You are given:
+Source image
+Adapted image (system output)
+Source culture description
+Target culture description
+
+
+Source culture: {source_culture_text}
+Target culture: {target_culture_text}
+Evaluate the adapted image using the criteria below. Score each criterion from 1 (very poor) to 5 (excellent) and give brief reasoning (1–3 sentences) per criterion.
+A. Cultural Appropriateness (1–5)
+ Does the adapted image plausibly reflect the target culture in relevant visual elements?
+B. Semantic Preservation — Concept (1–5)
+ Is the adapted image still clearly the same underlying concept/category as the source (e.g., food remains the same type of food; clothing remains the same garment type), while allowing culturally appropriate changes?
+C. Visual & Structural Coherence (1–5)
+ Is the image visually coherent and free of major artifacts or inconsistencies?
+After scoring A/B/C, provide an Overall Success Score (1–5) that reflects overall task success considering all criteria together. Briefly justify the overall score (1–3 sentences).
+Return JSON only in the exact format:
+{
+  "A_cultural_appropriateness": {"score": 1-5, "reason": "..."},
+  "B_semantic_preservation": {"score": 1-5, "reason": "..."},
+  "C_visual_coherence": {"score": 1-5, "reason": "..."},
+  "overall_success": {"score": 1-5, "reason": "..."}
+}
