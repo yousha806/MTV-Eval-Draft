@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 
 #COUNTRIES = ["portugal","india","brazil","japan","nigeria","turkey","united-states"] 
-COUNTRIES = ["brazil"]
+COUNTRIES = ["india"]
 def extract_source_country(url: str) -> str:
     parts = url.split("/")
     if "part1" in parts:
@@ -10,6 +10,12 @@ def extract_source_country(url: str) -> str:
         if idx + 1 < len(parts):
             return parts[idx + 1]
     return "unknown"
+
+def extract_category(url: str) -> str:
+    """Extract category from URL (filename prefix before first underscore)"""
+    parts = url.split("/")
+    filename = parts[-1]
+    return filename.split("_")[0]
 
 def load_all_examples(root="data/part-1"):
     examples = []
@@ -25,12 +31,14 @@ def load_all_examples(root="data/part-1"):
 
         for row in df.itertuples(index=False):
             for i in range(1, 4):
+                src_url = getattr(row, "src_image_path")
                 examples.append({
-                    "src_image": getattr(row, "src_image_path"),
+                    "src_image": src_url,
                     "adapted_image": getattr(row, f"model_path_{i}"),
                     "model": getattr(row, f"model_{i}"),
-                    "source_culture": extract_source_country(getattr(row, "src_image_path")),
+                    "source_culture": extract_source_country(src_url),
                     "target_culture": country,
+                    "category": extract_category(src_url),
                     "labels_file": str(labels_path),
                 })
 

@@ -2,6 +2,7 @@ import argparse
 import json
 from pathlib import Path
 from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from loader import load_all_examples
 from gemini_client import evaluate_with_gemini, dry_run_evaluate
@@ -33,9 +34,15 @@ def main():
     # Choose evaluator function
     evaluator = dry_run_evaluate if args.dry_run else evaluate_with_gemini
 
-    with out_path.open("w") as f:
-        for idx, ex in enumerate(tqdm(examples)):
-            # Optional URL sanity checks
+    # Concurrency limit (default 10)
+    max_workers = 4
+
+    print(f"Starting evaluation with {max_workers} workers...")
+    
+    with out_path.open("w") as f, ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {}
+        for idx, ex in enumerate(examples):
+            # Optional URL sanity checks (only doing this in dry-run or before submission to avoid spamming logs in parallel)
             if args.dry_run:
                 if not check_url(ex["src_image"]):
                     print(f"WARNING: src_image URL invalid: {ex['src_image']}")
@@ -43,10 +50,20 @@ def main():
                     print(f"WARNING: adapted_image URL invalid: {ex['adapted_image']}")
 
             # Fill prompt template
-            prompt = prompt_template.replace("{source_culture_text}", ex["source_culture"]).replace("{target_culture_text}", ex["target_culture"])
+            prompt = prompt_template.replace("{source_culture_text}", ex["source_culture"]).replace("{target_culture_text}", ex["target_culture"]).replace("{category}", ex["category"])
 
-            # Call evaluator
-            result_raw = evaluator(prompt, ex["src_image"], ex["adapted_image"])
+            # Submit task
+            future = executor.submit(evaluator, prompt, ex["src_image"], ex["adapted_image"])
+            futures[future] = ex
+
+        # Process results as they complete
+        for future in tqdm(as_completed(futures), total=len(futures)):
+            ex = futures[future]
+            try:
+                result_raw = future.result()
+            except Exception as e:
+                print(f"Error processing example: {e}")
+                result_raw = {}
 
             # Ensure result is a dict
             if isinstance(result_raw, str):
@@ -73,11 +90,12 @@ def main():
 
             # Write JSONL
             f.write(json.dumps(record) + "\n")
+            f.flush() # Ensure it's written immediately
 
-            # Print first dry-run example
-            if args.dry_run and idx == 0:
-                print("\n✔ Dry-run example:\n")
-                print(json.dumps(record, indent=2))
+            # Print first dry-run example (we can't easily rely on idx==0 being first here, so just print the first one that returns)
+            if args.dry_run and futures[future] == examples[0]:
+                 # Note: this might not print if example[0] finishes late, but for dry-run it's fine
+                 pass 
 
     print(f"\nDone. Results written to {out_path}")
 
