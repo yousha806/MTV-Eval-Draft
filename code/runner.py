@@ -35,7 +35,7 @@ def main():
     evaluator = dry_run_evaluate if args.dry_run else evaluate_with_gemini
 
     # Concurrency limit (default 10)
-    max_workers = 4
+    max_workers = 10
 
     print(f"Starting evaluation with {max_workers} workers...")
     
