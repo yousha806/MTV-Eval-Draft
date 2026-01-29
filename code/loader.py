@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 
-COUNTRIES = ["brazil","india","portugal","japan","nigeria","turkey","united-states"] 
+COUNTRIES = ["india","portugal","japan","nigeria","turkey","united-states"] 
 #COUNTRIES = ["brazil"]
 def extract_source_country(url: str) -> str:
     parts = url.split("/")
@@ -49,7 +49,7 @@ def load_all_examples_part2(root="data/part-2"):
     examples = []
     root_path = Path(root)
 
-    for country in ["brazil"]:  # or make this configurable if needed
+    for country in COUNTRIES:  # or make this configurable if needed
         labels_path = root_path / country / "labels.csv"
         if not labels_path.exists():
             print(f"WARNING: CSV not found for country {country}: {labels_path}")
