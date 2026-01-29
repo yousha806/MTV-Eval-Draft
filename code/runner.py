@@ -4,32 +4,76 @@ from pathlib import Path
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from loader import load_all_examples
+from loader import load_all_examples, load_all_examples_part2
 from gemini_client import evaluate_with_gemini, dry_run_evaluate
 from utils import check_url
 
 # List of countries to iterate over
+def select_prompt_and_fill(ex, prompts):
+    """
+    Select correct prompt and fill fields based on example content.
+    prompts: dict with keys ["concept", "education", "stories"]
+    """
+    # PART 2 → education or stories
+    if "task" in ex:  
+        if "/education/" in ex["src_image"]:
+            prompt = prompts["education"]
+            prompt = prompt.replace("{learning_goal_text}", ex["task"])
+        else:
+            prompt = prompts["stories"]
+            prompt = prompt.replace("{story_text}", ex["task"])
+    # PART 1 → concept
+    else:
+        prompt = prompts["concept"]
+        prompt = prompt.replace("{category}", ex["category"])
+        prompt = (
+        prompt
+        .replace("{source_culture_text}", ex["source_culture"])
+    )
+    prompt = (
+        prompt
+        .replace("{target_culture_text}", ex["target_culture"])
+    )
+
+    # Common fields
+    
+
+    return prompt
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="Run without calling Gemini")
     parser.add_argument("--data-root", type=str, default="data/part1", help="Root folder for part1 data")
-    parser.add_argument("--prompt-path", type=str, default="prompts/concept.txt", help="Prompt template path")
+    #parser.add_argument("--prompt-path", type=str, default="prompts/concept.txt", help="Prompt template path")
     parser.add_argument("--output-path", type=str, default="outputs/gemini_results.jsonl", help="Output JSONL path")
+   
+    parser.add_argument(
+"--dataset-part",
+    choices=["part1", "part2"],
+    default="part1",
+    help="Which dataset to use"
+)
     args = parser.parse_args()
-
     # Absolute paths
     script_dir = Path(__file__).parent
     data_root = Path(args.data_root).resolve()
-    prompt_path = Path(args.prompt_path).resolve()
+    #prompt_path = Path(args.prompt_path).resolve()
     out_path = Path(args.output_path).resolve()
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
     # Load prompt template
-    prompt_template = prompt_path.read_text()
-
+    #prompt_template = prompt_path.read_text()
+    prompts = {
+        "concept": Path("prompts/concept.txt").read_text(),
+        "education": Path("prompts/education.txt").read_text(),
+        "stories": Path("prompts/stories.txt").read_text(),
+    }
     # Load all examples efficiently
-    examples = load_all_examples()
+    #examples = load_all_examples()
+    if args.dataset_part == "part1":
+        examples = load_all_examples()
+    else:
+        examples = load_all_examples_part2()
 
     # Choose evaluator function
     evaluator = dry_run_evaluate if args.dry_run else evaluate_with_gemini
@@ -50,8 +94,7 @@ def main():
                     print(f"WARNING: adapted_image URL invalid: {ex['adapted_image']}")
 
             # Fill prompt template
-            prompt = prompt_template.replace("{source_culture_text}", ex["source_culture"]).replace("{target_culture_text}", ex["target_culture"]).replace("{category}", ex["category"])
-
+            prompt = select_prompt_and_fill(ex, prompts)
             # Submit task
             future = executor.submit(evaluator, prompt, ex["src_image"], ex["adapted_image"])
             futures[future] = ex
