@@ -40,7 +40,7 @@ def evaluate_with_gemini(prompt, src_url, adapted_url):
     @retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
     def _call():
         response = client.models.generate_content(
-            model="gemini-2.5-flash",  # or "gemini-3-flash-preview" if available
+            model="gemini-3-flash-preview",  # or "gemini-3-flash-preview" if available
             contents=[
                 types.Part.from_bytes(data=src_bytes, mime_type="image/jpeg"),
                 types.Part.from_bytes(data=adapted_bytes, mime_type="image/jpeg"),

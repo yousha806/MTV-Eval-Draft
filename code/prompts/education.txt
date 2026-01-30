@@ -9,20 +9,21 @@ Intended learning goal/summary
 Target culture: {target_culture_text}
 Learning goal: {learning_goal_text}
 Evaluate the images using the criteria below. Score each criterion from 1 (very poor) to 5 (excellent) and give brief reasoning (1–3 sentences) per criterion.
-A. Cultural Appropriateness (1–5)
-Does the adapted image plausibly reflect the target culture in relevant visual elements (objects, setting, symbols) without inappropriate cues?
-B. Semantic Preservation — Education (1–5)
-Does the adapted worksheet/diagram teach the same underlying concept as the original?
-C. Visual & Structural Coherence (1–5)
-Is the image structurally coherent (layout, legibility, alignment) and usable as an educational visual?
-D. Source Cultural Appropriateness (1–5)
+A. Source Image Cultural Appropriateness (1–5)
 Rate the source image for how culturally appropriate it already is for the target culture. This helps measure the change in cultural appropriateness due to adaptation.
-After scoring A/B/C/D, provide an Overall Success Score (1–5) reflecting whether the adapted image is successful overall. Briefly justify the score (1–3 sentences).
+B. Adapted Image Cultural Appropriateness (1–5)
+Does the adapted image plausibly reflect the target culture in relevant visual elements (objects, setting, symbols) without inappropriate cues?
+C. Semantic Preservation — Education (1–5)
+Does the adapted worksheet/diagram teach the same underlying concept as the original?
+D. Visual & Structural Coherence (1–5)
+Is the image structurally coherent (layout, legibility, alignment) and usable as an educational visual?
+
+After scoring A/B/C/D, provide an Overall Success Score (1–5) that reflects overall task success. The task will be considered successful if: a) the adapted image preserves the semantic category of the original image (i.e., if the score for "C_semantic_preservation" is 4 or 5); and b) if the score for the adapted image's cultural appropriateness is greater than the score for the source image's cultural appropriateness (i.e. if the score for "B_adapted_cultural_appropriateness" is greater than the score for "A_source_cultural_appropriateness"). If the model fails to fulfil both of these criteria, assign a score of 0 for overall success. A score between 1-5 would be used to assess the degree of success. Briefly justify the overall score (1–3 sentences).
 Return JSON only in the exact format:
 {
-  "A_cultural_appropriateness": {"score": 1-5, "reason": "..."},
-  "B_semantic_preservation": {"score": 1-5, "reason": "..."},
-  "C_visual_coherence": {"score": 1-5, "reason": "..."},
-  "D_source_cultural_appropriateness": {"score": 1-5, "reason": "..."},
+  "A_source_cultural_appropriateness": {"score": 1-5, "reason": "..."},
+  "B_adapted_cultural_appropriateness": {"score": 1-5, "reason": "..."},
+  "C_semantic_preservation": {"score": 1-5, "reason": "..."},
+  "D_visual_coherence": {"score": 1-5, "reason": "..."},
   "overall_success": {"score": 1-5, "reason": "..."}
 }
