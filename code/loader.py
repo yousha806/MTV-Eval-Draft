@@ -1,8 +1,8 @@
 from pathlib import Path
 import pandas as pd
 
-#COUNTRIES = ["brazil","india","portugal","japan","nigeria","turkey","united-states"] 
-COUNTRIES = ["united-states","turkey"]
+COUNTRIES = ["brazil","india","portugal","japan","nigeria","turkey","united-states"] 
+#COUNTRIES = ["united-states","turkey"]
 def extract_source_country(url: str) -> str:
     parts = url.split("/")
     if "part1" in parts:

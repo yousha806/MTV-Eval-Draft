@@ -5,7 +5,7 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from loader import load_all_examples, load_all_examples_part2
-from gemini_client import evaluate_with_gemini, dry_run_evaluate
+from gemini_client import evaluate_with_gemini, evaluate_with_gpt4o, dry_run_evaluate
 from utils import check_url
 
 # List of countries to iterate over
@@ -44,15 +44,19 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="Run without calling Gemini")
     parser.add_argument("--data-root", type=str, default="data/part1", help="Root folder for part1 data")
-    #parser.add_argument("--prompt-path", type=str, default="prompts/concept.txt", help="Prompt template path")
     parser.add_argument("--output-path", type=str, default="outputs/gemini_results.jsonl", help="Output JSONL path")
-   
     parser.add_argument(
-"--dataset-part",
-    choices=["part1", "part2"],
-    default="part1",
-    help="Which dataset to use"
-)
+        "--dataset-part",
+        choices=["part1", "part2"],
+        default="part1",
+        help="Which dataset to use"
+    )
+    parser.add_argument(
+        "--model",
+        choices=["gemini", "gpt4o"],
+        default="gemini",
+        help="Which model to use for evaluation"
+    )
     args = parser.parse_args()
     # Absolute paths
     script_dir = Path(__file__).parent
@@ -75,8 +79,13 @@ def main():
     else:
         examples = load_all_examples_part2()
 
-    # Choose evaluator function
-    evaluator = dry_run_evaluate if args.dry_run else evaluate_with_gemini
+    # Choose evaluator function based on model argument
+    if args.dry_run:
+        evaluator = dry_run_evaluate
+    elif args.model == "gpt4o":
+        evaluator = evaluate_with_gpt4o
+    else:
+        evaluator = evaluate_with_gemini
 
     # Concurrency limit (default 10)
     max_workers = 10
