@@ -7,6 +7,7 @@ import sys
 
 from llm_generator import (
     generate_adapted_image_with_litellm,
+    generate_adapted_image_with_nanobanana,
     extract_category,
     extract_source_country,
 )
@@ -20,7 +21,11 @@ def generate_baseline(example, generator_type="nanobanana"):
         target_culture = example["target_culture"]
         category = example["category"]
         
-        adapted_url = generate_adapted_image_with_litellm(src_url, target_culture, category)
+        # Choose the appropriate generator function
+        if generator_type == "nanobanana":
+            adapted_url = generate_adapted_image_with_nanobanana(src_url, target_culture, category)
+        else:  # gemini or default
+            adapted_url = generate_adapted_image_with_litellm(src_url, target_culture, category)
         
         result = {
             **example,
@@ -73,8 +78,8 @@ def main():
     parser.add_argument(
         "--max-workers",
         type=int,
-        default=5,
-        help="Number of parallel workers"
+        default=2,
+        help="Number of parallel workers (reduce if hitting API rate limits)"
     )
     
     args = parser.parse_args()
@@ -98,7 +103,7 @@ def main():
                     "adapted_image_url": f"[DRY RUN] Would generate image for {example['src_image']}",
                     "generator": args.generator,
                 }
-                f.write(json.dumps(result) + "\n")
+                f.write(json.dumps(result, ensure_ascii=False) + "\n")
         print(f"Dry run preview written to {output_path}")
         return
     
@@ -111,7 +116,7 @@ def main():
         for future in tqdm(as_completed(futures), total=len(futures)):
             try:
                 result = future.result()
-                f.write(json.dumps(result) + "\n")
+                f.write(json.dumps(result, ensure_ascii=False) + "\n")
                 f.flush()
             except Exception as e:
                 print(f"Error: {e}")
