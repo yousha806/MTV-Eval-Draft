@@ -106,11 +106,9 @@ def generate_adapted_image_with_nanobanana(src_url, target_culture, category):
     input_image_bytes = load_image_bytes(src_url)
     image_pil = Image.open(io.BytesIO(input_image_bytes))
     
-    prompt = f"""Edit the given image so that it reflects the cultural context of {target_culture},
-while keeping the same category as the original image.
+    prompt = f"""Edit the input image so that the object / concept it depicts reflects the cultural context of {target_culture}. For example, if the image shows a food item, change the food to another food item that is more relevant to the target country. Do not change the overall category of the object / concept being depicted. For example, an image depicting a musical instrument should change into an image that also depicts a musical instrument.
 
-Make culturally appropriate changes to appearance, environment, materials, colors,
-symbols, or presentation. Do not change the category of the object.
+You are given both the target culture and the category the object / concept belongs to:
 
 Target culture: {target_culture}
 Category: {category}"""
