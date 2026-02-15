@@ -45,12 +45,12 @@ def load_all_examples(root="data/part-1"):
     return examples
 
 
-def load_from_huggingface(split_name: str = "concept", target_countries=None):
+def load_from_huggingface(dataset_name: str = "concept", target_countries=None):
     """
     Load examples from Hugging Face dataset (cmu-lti/machine-translation-for-vision)
     
     Args:
-        split_name: "concept" or "application" (these are splits within the default config)
+        dataset_name: "concept" or "application" (these are splits within the default config)
         target_countries: List of target countries to filter by (e.g., ["india", "japan"])
                          If None, uses all available target countries from each example
     
@@ -62,17 +62,17 @@ def load_from_huggingface(split_name: str = "concept", target_countries=None):
     except ImportError:
         raise ImportError("datasets package not found. Install with: pip install datasets")
     
-    if split_name not in ["concept", "application"]:
-        raise ValueError("split_name must be 'concept' or 'application'")
+    if dataset_name not in ["concept", "application"]:
+        raise ValueError("dataset_name must be 'concept' or 'application'")
     
     print(f"Loading dataset from Hugging Face...")
     ds = load_dataset("cmu-lti/machine-translation-for-vision", "default")
     
-    if split_name not in ds:
-        raise ValueError(f"Split '{split_name}' not found. Available: {list(ds.keys())}")
+    if dataset_name not in ds:
+        raise ValueError(f"Split '{dataset_name}' not found. Available: {list(ds.keys())}")
     
-    dataset = ds[split_name]
-    print(f"Processing split: {split_name}")
+    dataset = ds[dataset_name]
+    print(f"Processing split: {dataset_name}")
     
     examples = []
     
@@ -101,7 +101,7 @@ def load_from_huggingface(split_name: str = "concept", target_countries=None):
                 "source_culture": source_country,
                 "target_culture": target_country,
                 "category": category,
-                "split": split_name,
+                "split": dataset_name,
             })
     
     print(f"Total examples loaded from Hugging Face: {len(examples)}")

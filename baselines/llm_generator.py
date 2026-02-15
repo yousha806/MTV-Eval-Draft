@@ -20,6 +20,22 @@ def sanitize_filename(filename):
     return sanitized
 
 
+def create_output_filename(src_url, target_culture):
+    """Create unique output filename including source and target culture"""
+    filename = src_url.split('/')[-1]
+    # Sanitize filename to remove unicode characters
+    filename = sanitize_filename(filename)
+    # Split filename into name and extension
+    name_parts = filename.rsplit('.', 1)
+    if len(name_parts) == 2:
+        base_name, extension = name_parts
+        # Include target culture in filename: adapted_{base}_{target_culture}.{ext}
+        return f"adapted_{base_name}_{target_culture}.{extension}"
+    else:
+        # No extension
+        return f"adapted_{filename}_{target_culture}"
+
+
 
 def load_image_bytes(url):
     resp = requests.get(url)
@@ -57,10 +73,8 @@ Category: {category}"""
     output_dir = Path("outputs/images")
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    filename = src_url.split('/')[-1]
-    # Sanitize filename to remove unicode characters
-    filename = sanitize_filename(filename)
-    output_path = output_dir / f"adapted_{filename}"
+    output_filename = create_output_filename(src_url, target_culture)
+    output_path = output_dir / output_filename
     
     try:
         if adapted_image is None:
@@ -138,10 +152,8 @@ Category: {category}"""
         output_dir = Path("outputs/images")
         output_dir.mkdir(parents=True, exist_ok=True)
         
-        filename = src_url.split('/')[-1]
-        # Sanitize filename to remove unicode characters
-        filename = sanitize_filename(filename)
-        output_path = output_dir / f"adapted_{filename}"
+        output_filename = create_output_filename(src_url, target_culture)
+        output_path = output_dir / output_filename
         
         # Save with quality parameter only for formats that support it
         try:
