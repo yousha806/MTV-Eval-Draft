@@ -13,21 +13,24 @@ Source culture: {source_culture_text}
 Target culture: {target_culture_text}
 Category: {category}
 Evaluate the adapted image using the criteria below. Score each criterion from 1 (very poor) to 5 (excellent) and give brief reasoning (1–3 sentences) per criterion. Give scores such that for each criterion, a score of 4 and 5 would indicate overall success and a score of 1, 2, or 3 would indicate failure. 
-A. Source Image Cultural Appropriateness (1–5)
- How well does the source image already reflect the target culture?
-B. Adapted Image Cultural Appropriateness (1–5)
- How well does the adapted image reflect the target culture?
+A. Source Image Cultural Relevance (1–5)
+ In the context of the "{category}" category, does the concept depicted in the source image already belong to or represent the target culture? For example, sushi already belongs to Japanese food culture; a sari already belongs to Indian clothing culture. A score of 5 means the concept is already a well-known example of this category in the target culture. A score of 1 means it has no cultural association with the target culture.
+B. Adapted Image Cultural Relevance (1–5)
+ In the context of the "{category}" category, does the concept depicted in the adapted image belong to or represent the target culture? For example, if adapting to India, depicting biryani (food) or a haveli (houses) would score high. The depicted concept itself must be culturally relevant — superficial cues like flags, national colors, or landmarks in the background do not count.
 C. Semantic Preservation — Concept (1–5)
- Does the adapted image belong to the same category as the source image (e.g., food remains food; clothes are changed into clothes, and so on), while allowing culturally appropriate changes?
+ Does the adapted image belong to the same category as the source image (e.g., food remains food; clothes are changed into clothes, and so on), while allowing culturally appropriate changes? Shifts within the category are acceptable if they are culturally motivated, but the adapted image should not drift into an entirely different category (for example, a food item should remain food and not change into a house).
 D. Visual & Structural Coherence (1–5)
- Is the image visually coherent and free of major artifacts or inconsistencies?
+ Is the image visually coherent, free of major artifacts or inconsistencies, and does it look plausible? The adapted image should be coherent — not one where cultural markers (e.g., flags, flag colors, national symbols) are awkwardly inserted into the background or overlaid in a way that makes the image look artificial or nonsensical. Cultural elements should be organically integrated, not superficially pasted on.
+E. Structural Similarity to Source Image (1–5)
+ Does the adapted image feel like it was based on the source image? This criterion is intentionally lenient — cultural adaptation often requires significant visual changes (e.g., replacing dishes, changing architecture, swapping clothing), and these should not be penalized. What matters is whether there is a recognizable visual connection to the source image, not whether the layout is preserved exactly. A score of 5 means the adapted image clearly echoes the source image's general composition. A score of 4 means the connection is apparent, with some changes in framing or arrangement. A score of 3 means the image is loosely related — you can see the inspiration from the source, but the composition has shifted noticeably. A score of 2 means the connection is weak — the scene looks mostly different, with only a faint echo of the source. A score of 1 means the adapted image is a completely unrelated scene with no visual connection to the source.
 
-After scoring A/B/C/D, provide an Overall Success Score (1–5) that reflects overall task success. The task will be considered successful if: a) the adapted image preserves the semantic category of the original image (i.e., if the score for "C_semantic_preservation" is 4 or 5); and b) if the score for the adapted image's cultural appropriateness is greater than the score for the source image's cultural appropriateness (i.e. if the score for "B_adapted_cultural_appropriateness" is greater than the score for "A_source_cultural_appropriateness"). If the model fails to fulfil both of these criteria, assign a score of 0 for overall success. A score between 1-5 would be used to assess the degree of success. Briefly justify the overall score (1–3 sentences).
+After scoring A/B/C/D/E, provide an Overall Success Score (0–5) that reflects overall task success. The overall score should primarily reflect cultural appropriateness (B), semantic preservation (C), and visual coherence (D). Structural similarity (E) is a secondary consideration — it should only significantly affect the overall score in extreme cases (e.g., a completely unrelated scene). Assign a score of 0 (failure) if any of the following conditions hold: a) the adapted image does not preserve the semantic category of the original image (i.e., score for "C_semantic_preservation" is 3 or below); or b) the adapted image's cultural appropriateness does not exceed the source image's cultural appropriateness (i.e., score for "B_adapted_cultural_appropriateness" is not greater than "A_source_cultural_appropriateness"); or c) the adaptation relies on superficial shortcuts like inserting a flag, applying flag colors, or adding national symbols without meaningful integration. If none of these failure conditions apply, assign a score between 1–5: a score of 5 means the adapted image is a natural, culturally authentic depiction; a score of 3–4 means the adaptation is recognizable but somewhat forced or incomplete; a score of 1–2 means the adaptation is very minimal or the cultural transformation is limited. Briefly justify the overall score (1–3 sentences).
 Return JSON only in the exact format:
 {
   "A_source_cultural_appropriateness": {"score": 1-5, "reason": "..."},
   "B_adapted_cultural_appropriateness": {"score": 1-5, "reason": "..."},
   "C_semantic_preservation": {"score": 1-5, "reason": "..."},
   "D_visual_coherence": {"score": 1-5, "reason": "..."},
-  "overall_success": {"score": 1-5, "reason": "..."}
+  "E_structural_similarity": {"score": 1-5, "reason": "..."},
+  "overall_success": {"score": 0-5, "reason": "..."}
 }
