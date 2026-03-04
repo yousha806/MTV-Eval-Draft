@@ -1,0 +1,1802 @@
+[
+  {
+    "annotator": "simran",
+    "image_id": "utensil_suribachi",
+    "category": "utensil",
+    "concept": "suribachi",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/utensil_suribachi.jpg",
+    "adapted_filename": "adapted_utensil_suribachi_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 5,
+      "E_structural_similarity": 4,
+      "overall_success": 4,
+      "D_visual_coherence": 5
+    },
+    "index": 0,
+    "timestamp": "2026-02-23T18:48:13.691890"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "visual-arts_barroco-no-brasil",
+    "category": "visual-arts",
+    "concept": "barroco-no-brasil",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/visual-arts_barroco-no-brasil.jpg",
+    "adapted_filename": "adapted_visual-arts_barroco-no-brasil_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 4,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 4,
+      "overall_success": 4
+    },
+    "index": 1,
+    "timestamp": "2026-02-23T18:51:12.613648"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "vegetable_ewedu",
+    "category": "vegetable",
+    "concept": "ewedu",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/vegetable_ewedu.jpg",
+    "adapted_filename": "adapted_vegetable_ewedu_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 2,
+    "timestamp": "2026-02-28T10:08:57.151142"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "music_cavaquinho",
+    "category": "music",
+    "concept": "cavaquinho",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/music_cavaquinho.jpg",
+    "adapted_filename": "adapted_music_cavaquinho_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 3,
+    "timestamp": "2026-02-28T10:09:17.729648"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "beverages_calpis",
+    "category": "beverages",
+    "concept": "calpis",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/beverages_calpis.jpg",
+    "adapted_filename": "adapted_beverages_calpis_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 1,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 4,
+    "timestamp": "2026-02-28T10:09:48.881849"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "agriculture_cotton",
+    "category": "agriculture",
+    "concept": "cotton",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/united-states/agriculture_cotton.jpg",
+    "adapted_filename": "adapted_agriculture_cotton_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 5,
+    "timestamp": "2026-02-28T10:10:11.481575"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "fruit_citrus-unshiu",
+    "category": "fruit",
+    "concept": "citrus-unshiu",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/fruit_citrus-unshiu.jpg",
+    "adapted_filename": "adapted_fruit_citrus-unshiu_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 6,
+    "timestamp": "2026-02-28T10:10:21.181385"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "celebrations_independence-day-celebration",
+    "category": "celebrations",
+    "concept": "independence-day-celebration",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/celebrations_independence-day-celebration.jpg",
+    "adapted_filename": "adapted_celebrations_independence-day-celebration_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 3,
+      "C_semantic_preservation": 1,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 0
+    },
+    "index": 7,
+    "timestamp": "2026-02-28T10:10:49.866956"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "bird_tucano",
+    "category": "bird",
+    "concept": "tucano",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/bird_tucano.jpg",
+    "adapted_filename": "adapted_bird_tucano_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 8,
+    "timestamp": "2026-02-28T10:11:08.109996"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "bird_gull",
+    "category": "bird",
+    "concept": "gull",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/bird_gull.jpg",
+    "adapted_filename": "adapted_bird_gull_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 9,
+    "timestamp": "2026-02-28T10:11:24.134853"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "agriculture_fishery",
+    "category": "agriculture",
+    "concept": "fishery",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/agriculture_fishery.jpg",
+    "adapted_filename": "adapted_agriculture_fishery_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 10,
+    "timestamp": "2026-02-28T10:11:36.185217"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "clothing_camisola-poveira",
+    "category": "clothing",
+    "concept": "camisola-poveira",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/clothing_camisola-poveira.jpg",
+    "adapted_filename": "adapted_clothing_camisola-poveira_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 11,
+    "timestamp": "2026-02-28T10:11:51.389670"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "celebrations_festa-junina",
+    "category": "celebrations",
+    "concept": "festa-junina",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/celebrations_festa-junina.jpg",
+    "adapted_filename": "adapted_celebrations_festa-junina_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 12,
+    "timestamp": "2026-02-28T10:12:13.932150"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "education_vocational-school",
+    "category": "education",
+    "concept": "vocational-school",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/education_vocational-school.jpg",
+    "adapted_filename": "adapted_education_vocational-school_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 1,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 13,
+    "timestamp": "2026-02-28T10:12:27.692819"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "education_cram-school",
+    "category": "education",
+    "concept": "cram-school",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/education_cram-school.jpg",
+    "adapted_filename": "adapted_education_cram-school_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 14,
+    "timestamp": "2026-02-28T10:12:38.372171"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "religion_hinduism-in-nigeria",
+    "category": "religion",
+    "concept": "hinduism-in-nigeria",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/religion_hinduism-in-nigeria.jpg",
+    "adapted_filename": "adapted_religion_hinduism-in-nigeria_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 15,
+    "timestamp": "2026-02-28T10:12:59.204599"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "religion_turbe",
+    "category": "religion",
+    "concept": "turbe",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/religion_turbe.jpg",
+    "adapted_filename": "adapted_religion_turbe_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 16,
+    "timestamp": "2026-02-28T10:13:14.704078"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "music_baglama",
+    "category": "music",
+    "concept": "baglama",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/music_baglama.jpg",
+    "adapted_filename": "adapted_music_baglama_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 17,
+    "timestamp": "2026-02-28T10:13:24.856249"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "food_pounded-yam",
+    "category": "food",
+    "concept": "pounded-yam",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/food_pounded-yam.jpg",
+    "adapted_filename": "adapted_food_pounded-yam_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 1,
+      "B_adapted_cultural_appropriateness": 3,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 2
+    },
+    "index": 18,
+    "timestamp": "2026-02-28T10:13:44.756547"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "food_tempura",
+    "category": "food",
+    "concept": "tempura",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/food_tempura.jpg",
+    "adapted_filename": "adapted_food_tempura_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 19,
+    "timestamp": "2026-02-28T10:13:59.004360"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "flower_cherry-blossom",
+    "category": "flower",
+    "concept": "cherry-blossom",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/flower_cherry-blossom.jpg",
+    "adapted_filename": "adapted_flower_cherry-blossom_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 3,
+      "E_structural_similarity": 5,
+      "overall_success": 3
+    },
+    "index": 20,
+    "timestamp": "2026-02-28T10:14:20.543065"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "houses_yoruba-architecture",
+    "category": "houses",
+    "concept": "yoruba-architecture",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/houses_yoruba-architecture.jpg",
+    "adapted_filename": "adapted_houses_yoruba-architecture_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 21,
+    "timestamp": "2026-02-28T10:14:38.004375"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "clothing_sleeveless-shirt",
+    "category": "clothing",
+    "concept": "sleeveless-shirt",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/clothing_sleeveless-shirt.jpg",
+    "adapted_filename": "adapted_clothing_sleeveless-shirt_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 22,
+    "timestamp": "2026-02-28T10:14:55.308690"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "fruit_peach",
+    "category": "fruit",
+    "concept": "peach",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/fruit_peach.jpg",
+    "adapted_filename": "adapted_fruit_peach_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 23,
+    "timestamp": "2026-02-28T10:15:15.260822"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "sport_american-football",
+    "category": "sport",
+    "concept": "american-football",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/united-states/sport_american-football.jpg",
+    "adapted_filename": "adapted_sport_american-football_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 24,
+    "timestamp": "2026-02-28T10:15:32.270448"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "music_rock",
+    "category": "music",
+    "concept": "rock",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/united-states/music_rock.jpg",
+    "adapted_filename": "adapted_music_rock_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 25,
+    "timestamp": "2026-02-28T10:15:43.572064"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "flower_jacaranda",
+    "category": "flower",
+    "concept": "jacaranda",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/flower_jacaranda.jpg",
+    "adapted_filename": "adapted_flower_jacaranda_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 26,
+    "timestamp": "2026-02-28T10:15:53.588209"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "visual-arts_graffiti",
+    "category": "visual-arts",
+    "concept": "graffiti",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/visual-arts_graffiti.jpg",
+    "adapted_filename": "adapted_visual-arts_graffiti_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 4,
+      "D_visual_coherence": 3,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 27,
+    "timestamp": "2026-02-28T10:16:16.820812"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "sport_karate",
+    "category": "sport",
+    "concept": "karate",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/sport_karate.jpg",
+    "adapted_filename": "adapted_sport_karate_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 28,
+    "timestamp": "2026-02-28T10:16:39.904391"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "education_quran-course",
+    "category": "education",
+    "concept": "quran-course",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/education_quran-course.jpg",
+    "adapted_filename": "adapted_education_quran-course_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 29,
+    "timestamp": "2026-02-28T10:17:05.356653"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "celebrations_carnaval-de-torres-vedras",
+    "category": "celebrations",
+    "concept": "carnaval-de-torres-vedras",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/celebrations_carnaval-de-torres-vedras.jpg",
+    "adapted_filename": "adapted_celebrations_carnaval-de-torres-vedras_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 30,
+    "timestamp": "2026-02-28T10:17:35.524477"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "fruit_apple",
+    "category": "fruit",
+    "concept": "apple",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/fruit_apple.jpg",
+    "adapted_filename": "adapted_fruit_apple_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 31,
+    "timestamp": "2026-02-28T10:17:44.988140"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "religion_mainline-protestant",
+    "category": "religion",
+    "concept": "mainline-protestant",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/united-states/religion_mainline-protestant.jpg",
+    "adapted_filename": "adapted_religion_mainline-protestant_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 3,
+      "C_semantic_preservation": 3,
+      "D_visual_coherence": 2,
+      "E_structural_similarity": 5,
+      "overall_success": 0
+    },
+    "index": 32,
+    "timestamp": "2026-02-28T10:18:17.474538"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "agriculture_hazelnut-production-in-turkey",
+    "category": "agriculture",
+    "concept": "hazelnut-production-in-turkey",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/agriculture_hazelnut-production-in-turkey.jpg",
+    "adapted_filename": "adapted_agriculture_hazelnut-production-in-turkey_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 4,
+      "D_visual_coherence": 3,
+      "E_structural_similarity": 5,
+      "overall_success": 2
+    },
+    "index": 33,
+    "timestamp": "2026-02-28T10:18:44.540283"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "clothing_wrapper",
+    "category": "clothing",
+    "concept": "wrapper",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/clothing_wrapper.jpg",
+    "adapted_filename": "adapted_clothing_wrapper_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 4,
+      "D_visual_coherence": 2,
+      "E_structural_similarity": 5,
+      "overall_success": 2
+    },
+    "index": 34,
+    "timestamp": "2026-02-28T10:19:28.577258"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "education_university-of-abuja",
+    "category": "education",
+    "concept": "university-of-abuja",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/education_university-of-abuja.jpg",
+    "adapted_filename": "adapted_education_university-of-abuja_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 1,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 3
+    },
+    "index": 35,
+    "timestamp": "2026-02-28T10:19:47.692854"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "celebrations_festa-dos-tabuleiros",
+    "category": "celebrations",
+    "concept": "festa-dos-tabuleiros",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/celebrations_festa-dos-tabuleiros.jpg",
+    "adapted_filename": "adapted_celebrations_festa-dos-tabuleiros_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 1,
+      "B_adapted_cultural_appropriateness": 3,
+      "C_semantic_preservation": 2,
+      "D_visual_coherence": 3,
+      "E_structural_similarity": 5,
+      "overall_success": 2
+    },
+    "index": 36,
+    "timestamp": "2026-02-28T10:46:00.609637"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "clothing_havaianas",
+    "category": "clothing",
+    "concept": "havaianas",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/clothing_havaianas.jpg",
+    "adapted_filename": "adapted_clothing_havaianas_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 37,
+    "timestamp": "2026-02-28T10:46:20.960812"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "food_simit",
+    "category": "food",
+    "concept": "simit",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/food_simit.jpg",
+    "adapted_filename": "adapted_food_simit_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 1,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 3,
+      "E_structural_similarity": 5,
+      "overall_success": 3
+    },
+    "index": 38,
+    "timestamp": "2026-02-28T10:46:43.273361"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "flower_handroanthus",
+    "category": "flower",
+    "concept": "handroanthus",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/flower_handroanthus.jpg",
+    "adapted_filename": "adapted_flower_handroanthus_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 39,
+    "timestamp": "2026-02-28T10:46:58.164767"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "music_traditional-flute-player",
+    "category": "music",
+    "concept": "traditional-flute-player",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/music_traditional-flute-player.jpg",
+    "adapted_filename": "adapted_music_traditional-flute-player_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 40,
+    "timestamp": "2026-02-28T10:47:14.993331"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "vegetable_yam",
+    "category": "vegetable",
+    "concept": "yam",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/vegetable_yam.jpg",
+    "adapted_filename": "adapted_vegetable_yam_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 41,
+    "timestamp": "2026-02-28T10:47:31.716436"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "beverages_beer",
+    "category": "beverages",
+    "concept": "beer",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/united-states/beverages_beer.jpg",
+    "adapted_filename": "adapted_beverages_beer_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 42,
+    "timestamp": "2026-02-28T10:47:57.958275"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "houses_minka",
+    "category": "houses",
+    "concept": "minka",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/houses_minka.jpg",
+    "adapted_filename": "adapted_houses_minka_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 43,
+    "timestamp": "2026-02-28T10:48:12.142309"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "vegetable_cassava",
+    "category": "vegetable",
+    "concept": "cassava",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/vegetable_cassava.jpg",
+    "adapted_filename": "adapted_vegetable_cassava_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 44,
+    "timestamp": "2026-02-28T10:48:33.829879"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "food_bifana",
+    "category": "food",
+    "concept": "bifana",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/food_bifana.jpg",
+    "adapted_filename": "adapted_food_bifana_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 45,
+    "timestamp": "2026-02-28T10:48:46.392723"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "clothing_suit",
+    "category": "clothing",
+    "concept": "suit",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/united-states/clothing_suit.jpg",
+    "adapted_filename": "adapted_clothing_suit_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 46,
+    "timestamp": "2026-02-28T10:49:14.777655"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "mammal_angora-cat",
+    "category": "mammal",
+    "concept": "angora-cat",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/mammal_angora-cat.jpg",
+    "adapted_filename": "adapted_mammal_angora-cat_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 3,
+      "E_structural_similarity": 5,
+      "overall_success": 3
+    },
+    "index": 47,
+    "timestamp": "2026-02-28T10:49:27.745611"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "celebrations_congada",
+    "category": "celebrations",
+    "concept": "congada",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/celebrations_congada.jpg",
+    "adapted_filename": "adapted_celebrations_congada_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 48,
+    "timestamp": "2026-02-28T10:49:50.269947"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "music_frevo",
+    "category": "music",
+    "concept": "frevo",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/music_frevo.jpg",
+    "adapted_filename": "adapted_music_frevo_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 49,
+    "timestamp": "2026-02-28T10:50:25.617003"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "fruit_orange",
+    "category": "fruit",
+    "concept": "orange",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/fruit_orange.jpg",
+    "adapted_filename": "adapted_fruit_orange_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 50,
+    "timestamp": "2026-02-28T10:50:38.226336"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "food_nigeria-jollof-rice-and-chicken-meat",
+    "category": "food",
+    "concept": "nigeria-jollof-rice-and-chicken-meat",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/food_nigeria-jollof-rice-and-chicken-meat.jpg",
+    "adapted_filename": "adapted_food_nigeria-jollof-rice-and-chicken-meat_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 51,
+    "timestamp": "2026-02-28T10:51:07.500975"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "mammal_common-raccoon-dog",
+    "category": "mammal",
+    "concept": "common-raccoon-dog",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/mammal_common-raccoon-dog.jpg",
+    "adapted_filename": "adapted_mammal_common-raccoon-dog_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 52,
+    "timestamp": "2026-02-28T10:51:30.845588"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "sport_volleyball",
+    "category": "sport",
+    "concept": "volleyball",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/sport_volleyball.jpg",
+    "adapted_filename": "adapted_sport_volleyball_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 53,
+    "timestamp": "2026-02-28T10:51:48.246340"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "houses_koutammakou",
+    "category": "houses",
+    "concept": "koutammakou",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/houses_koutammakou.jpg",
+    "adapted_filename": "adapted_houses_koutammakou_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 54,
+    "timestamp": "2026-02-28T10:52:03.412779"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "flower_cattleya",
+    "category": "flower",
+    "concept": "cattleya",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/flower_cattleya.jpg",
+    "adapted_filename": "adapted_flower_cattleya_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 55,
+    "timestamp": "2026-02-28T10:52:18.797166"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "mammal_angora-goat",
+    "category": "mammal",
+    "concept": "angora-goat",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/mammal_angora-goat.jpg",
+    "adapted_filename": "adapted_mammal_angora-goat_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 56,
+    "timestamp": "2026-02-28T10:53:05.540928"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "bird_kounotori",
+    "category": "bird",
+    "concept": "kounotori",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/bird_kounotori.jpg",
+    "adapted_filename": "adapted_bird_kounotori_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 57,
+    "timestamp": "2026-02-28T10:53:18.260545"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "fruit_jabuticaba",
+    "category": "fruit",
+    "concept": "jabuticaba",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/fruit_jabuticaba.jpg",
+    "adapted_filename": "adapted_fruit_jabuticaba_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 3,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 1
+    },
+    "index": 58,
+    "timestamp": "2026-02-28T10:53:40.817051"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "clothing_flip-flops",
+    "category": "clothing",
+    "concept": "flip-flops",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/clothing_flip-flops.jpg",
+    "adapted_filename": "adapted_clothing_flip-flops_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 4,
+      "overall_success": 4
+    },
+    "index": 59,
+    "timestamp": "2026-02-28T10:54:04.082689"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "bird_common-blackbird",
+    "category": "bird",
+    "concept": "common-blackbird",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/bird_common-blackbird.jpg",
+    "adapted_filename": "adapted_bird_common-blackbird_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 60,
+    "timestamp": "2026-02-28T10:54:14.097283"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "utensil_donabe",
+    "category": "utensil",
+    "concept": "donabe",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/utensil_donabe.jpg",
+    "adapted_filename": "adapted_utensil_donabe_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 61,
+    "timestamp": "2026-02-28T10:54:24.060586"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "agriculture_soybean",
+    "category": "agriculture",
+    "concept": "soybean",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/agriculture_soybean.jpg",
+    "adapted_filename": "adapted_agriculture_soybean_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 62,
+    "timestamp": "2026-02-28T10:54:36.728713"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "flower_narcissus",
+    "category": "flower",
+    "concept": "narcissus",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/united-states/flower_narcissus.jpg",
+    "adapted_filename": "adapted_flower_narcissus_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 63,
+    "timestamp": "2026-02-28T10:55:01.322031"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "religion_catholic-church",
+    "category": "religion",
+    "concept": "catholic-church",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/religion_catholic-church.jpg",
+    "adapted_filename": "adapted_religion_catholic-church_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 4,
+      "D_visual_coherence": 3,
+      "E_structural_similarity": 5,
+      "overall_success": 3
+    },
+    "index": 64,
+    "timestamp": "2026-02-28T10:56:28.401394"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "beverages_palm-wine",
+    "category": "beverages",
+    "concept": "palm-wine",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/beverages_palm-wine.jpg",
+    "adapted_filename": "adapted_beverages_palm-wine_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 65,
+    "timestamp": "2026-02-28T10:56:38.668562"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "utensil_barbecue-grill",
+    "category": "utensil",
+    "concept": "barbecue-grill",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/utensil_barbecue-grill.jpg",
+    "adapted_filename": "adapted_utensil_barbecue-grill_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 66,
+    "timestamp": "2026-02-28T10:56:54.138176"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "religion_temizuya",
+    "category": "religion",
+    "concept": "temizuya",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/religion_temizuya.jpg",
+    "adapted_filename": "adapted_religion_temizuya_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 67,
+    "timestamp": "2026-02-28T10:57:19.169105"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "sport_association-football",
+    "category": "sport",
+    "concept": "association-football",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/sport_association-football.jpg",
+    "adapted_filename": "adapted_sport_association-football_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 1,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 68,
+    "timestamp": "2026-02-28T10:57:34.269151"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "education_kwl-table",
+    "category": "education",
+    "concept": "kwl-table",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/education_kwl-table.jpg",
+    "adapted_filename": "adapted_education_kwl-table_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 69,
+    "timestamp": "2026-02-28T10:58:00.001069"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "music_idol",
+    "category": "music",
+    "concept": "idol",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/music_idol.jpg",
+    "adapted_filename": "adapted_music_idol_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 1,
+      "B_adapted_cultural_appropriateness": 3,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 2,
+      "E_structural_similarity": 4,
+      "overall_success": 1
+    },
+    "index": 70,
+    "timestamp": "2026-02-28T10:58:24.953679"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "mammal_giant-anteater",
+    "category": "mammal",
+    "concept": "giant-anteater",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/mammal_giant-anteater.jpg",
+    "adapted_filename": "adapted_mammal_giant-anteater_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 71,
+    "timestamp": "2026-02-28T10:58:36.801281"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "agriculture_corn-farm",
+    "category": "agriculture",
+    "concept": "corn-farm",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/agriculture_corn-farm.jpg",
+    "adapted_filename": "adapted_agriculture_corn-farm_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 72,
+    "timestamp": "2026-02-28T10:58:47.821304"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "education_imam-hatip-high-school",
+    "category": "education",
+    "concept": "imam-hatip-high-school",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/education_imam-hatip-high-school.jpg",
+    "adapted_filename": "adapted_education_imam-hatip-high-school_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 73,
+    "timestamp": "2026-02-28T10:59:02.187170"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "education_boarding-school",
+    "category": "education",
+    "concept": "boarding-school",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/united-states/education_boarding-school.jpg",
+    "adapted_filename": "adapted_education_boarding-school_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 74,
+    "timestamp": "2026-02-28T10:59:14.233387"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "clothing_capote-alentejano",
+    "category": "clothing",
+    "concept": "capote-alentejano",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/clothing_capote-alentejano.jpg",
+    "adapted_filename": "adapted_clothing_capote-alentejano_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 75,
+    "timestamp": "2026-02-28T10:59:27.968775"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "mammal_maned-wolf",
+    "category": "mammal",
+    "concept": "maned-wolf",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/mammal_maned-wolf.jpg",
+    "adapted_filename": "adapted_mammal_maned-wolf_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 76,
+    "timestamp": "2026-02-28T10:59:38.368436"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "utensil_squeegee",
+    "category": "utensil",
+    "concept": "squeegee",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/utensil_squeegee.jpg",
+    "adapted_filename": "adapted_utensil_squeegee_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 4,
+      "overall_success": 3
+    },
+    "index": 77,
+    "timestamp": "2026-02-28T10:59:58.704774"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "houses_aso-villa",
+    "category": "houses",
+    "concept": "aso-villa",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/houses_aso-villa.jpg",
+    "adapted_filename": "adapted_houses_aso-villa_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 78,
+    "timestamp": "2026-02-28T11:00:19.421023"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "fruit_mango",
+    "category": "fruit",
+    "concept": "mango",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/fruit_mango.jpg",
+    "adapted_filename": "adapted_fruit_mango_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 0
+    },
+    "index": 79,
+    "timestamp": "2026-02-28T11:00:37.688699"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "music_fado-de-lisboa",
+    "category": "music",
+    "concept": "fado-de-lisboa",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/music_fado-de-lisboa.jpg",
+    "adapted_filename": "adapted_music_fado-de-lisboa_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 2,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 3,
+      "E_structural_similarity": 5,
+      "overall_success": 0
+    },
+    "index": 80,
+    "timestamp": "2026-02-28T11:00:55.836314"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "celebrations_new-years-eve",
+    "category": "celebrations",
+    "concept": "new-years-eve",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/celebrations_new-years-eve.jpg",
+    "adapted_filename": "adapted_celebrations_new-years-eve_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 81,
+    "timestamp": "2026-02-28T11:01:06.804397"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "education_computer-classes",
+    "category": "education",
+    "concept": "computer-classes",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/education_computer-classes.jpg",
+    "adapted_filename": "adapted_education_computer-classes_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 82,
+    "timestamp": "2026-02-28T11:01:19.484497"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "beverages_zobo",
+    "category": "beverages",
+    "concept": "zobo",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/beverages_zobo.jpg",
+    "adapted_filename": "adapted_beverages_zobo_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 83,
+    "timestamp": "2026-02-28T11:01:32.124806"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "utensil_meat-grinder",
+    "category": "utensil",
+    "concept": "meat-grinder",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/utensil_meat-grinder.jpg",
+    "adapted_filename": "adapted_utensil_meat-grinder_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 3
+    },
+    "index": 84,
+    "timestamp": "2026-02-28T11:01:46.324562"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "vegetable_wasabi",
+    "category": "vegetable",
+    "concept": "wasabi",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/vegetable_wasabi.jpg",
+    "adapted_filename": "adapted_vegetable_wasabi_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 85,
+    "timestamp": "2026-02-28T11:01:59.813007"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "religion_kardecist-spiritism",
+    "category": "religion",
+    "concept": "kardecist-spiritism",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/religion_kardecist-spiritism.jpg",
+    "adapted_filename": "adapted_religion_kardecist-spiritism_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 1,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 86,
+    "timestamp": "2026-02-28T11:02:13.572730"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "music_bossa-nova",
+    "category": "music",
+    "concept": "bossa-nova",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/music_bossa-nova.jpg",
+    "adapted_filename": "adapted_music_bossa-nova_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 3,
+      "C_semantic_preservation": 3,
+      "D_visual_coherence": 2,
+      "E_structural_similarity": 4,
+      "overall_success": 1
+    },
+    "index": 87,
+    "timestamp": "2026-02-28T11:17:11.965454"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "sport_canoeing",
+    "category": "sport",
+    "concept": "canoeing",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/sport_canoeing.jpg",
+    "adapted_filename": "adapted_sport_canoeing_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 88,
+    "timestamp": "2026-02-28T11:17:22.437500"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "celebrations_christmas",
+    "category": "celebrations",
+    "concept": "christmas",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/united-states/celebrations_christmas.jpg",
+    "adapted_filename": "adapted_celebrations_christmas_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 4,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 4,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 4
+    },
+    "index": 89,
+    "timestamp": "2026-02-28T11:17:40.992701"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "mammal_african-forest-elephant",
+    "category": "mammal",
+    "concept": "african-forest-elephant",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/mammal_african-forest-elephant.jpg",
+    "adapted_filename": "adapted_mammal_african-forest-elephant_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 90,
+    "timestamp": "2026-02-28T11:17:50.444815"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "beverages_mate",
+    "category": "beverages",
+    "concept": "mate",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/beverages_mate.jpg",
+    "adapted_filename": "adapted_beverages_mate_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 91,
+    "timestamp": "2026-02-28T11:18:02.012316"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "utensil_cutting-board",
+    "category": "utensil",
+    "concept": "cutting-board",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/nigeria/utensil_cutting-board.jpg",
+    "adapted_filename": "adapted_utensil_cutting-board_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 5,
+      "B_adapted_cultural_appropriateness": 4,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 0
+    },
+    "index": 92,
+    "timestamp": "2026-02-28T11:18:15.912539"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "agriculture_vindima",
+    "category": "agriculture",
+    "concept": "vindima",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/portugal/agriculture_vindima.jpg",
+    "adapted_filename": "adapted_agriculture_vindima_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 93,
+    "timestamp": "2026-02-28T11:18:33.865304"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "religion_deism",
+    "category": "religion",
+    "concept": "deism",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/turkey/religion_deism.jpg",
+    "adapted_filename": "adapted_religion_deism_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 3,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 4,
+      "E_structural_similarity": 5,
+      "overall_success": 2
+    },
+    "index": 94,
+    "timestamp": "2026-02-28T11:18:52.280320"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "vegetable_renkon",
+    "category": "vegetable",
+    "concept": "renkon",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/vegetable_renkon.jpg",
+    "adapted_filename": "adapted_vegetable_renkon_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 95,
+    "timestamp": "2026-02-28T11:19:02.596730"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "utensil_pressure-cooking",
+    "category": "utensil",
+    "concept": "pressure-cooking",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/utensil_pressure-cooking.jpg",
+    "adapted_filename": "adapted_utensil_pressure-cooking_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 3,
+      "B_adapted_cultural_appropriateness": 3,
+      "C_semantic_preservation": 2,
+      "D_visual_coherence": 2,
+      "E_structural_similarity": 5,
+      "overall_success": 0
+    },
+    "index": 96,
+    "timestamp": "2026-02-28T11:19:19.644940"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "sport_futsal",
+    "category": "sport",
+    "concept": "futsal",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/brazil/sport_futsal.jpg",
+    "adapted_filename": "adapted_sport_futsal_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 3,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 3,
+      "E_structural_similarity": 5,
+      "overall_success": 3
+    },
+    "index": 97,
+    "timestamp": "2026-02-28T11:19:42.716265"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "visual-arts_ukiyo-e",
+    "category": "visual-arts",
+    "concept": "ukiyo-e",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/japan/visual-arts_ukiyo-e.jpg",
+    "adapted_filename": "adapted_visual-arts_ukiyo-e_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 2,
+      "B_adapted_cultural_appropriateness": 5,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 5,
+      "E_structural_similarity": 5,
+      "overall_success": 5
+    },
+    "index": 98,
+    "timestamp": "2026-02-28T11:19:51.696077"
+  },
+  {
+    "annotator": "simran",
+    "image_id": "houses_california-bungalow",
+    "category": "houses",
+    "concept": "california-bungalow",
+    "source_url": "https://storage.googleapis.com/image-transcreation/part1/united-states/houses_california-bungalow.jpg",
+    "adapted_filename": "adapted_houses_california-bungalow_india.jpg",
+    "ratings": {
+      "A_source_cultural_appropriateness": 1,
+      "B_adapted_cultural_appropriateness": 3,
+      "C_semantic_preservation": 5,
+      "D_visual_coherence": 3,
+      "E_structural_similarity": 5,
+      "overall_success": 2
+    },
+    "index": 99,
+    "timestamp": "2026-02-28T11:20:11.248298"
+  }
+]

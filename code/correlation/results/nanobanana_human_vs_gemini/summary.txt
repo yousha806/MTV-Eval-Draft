@@ -1,0 +1,50 @@
+====================================================================================================
+HUMAN vs GEMINI CORRELATION SUMMARY  |  Model: nanobanana  |  n=100 image pairs
+Human scores = average of two annotators (Yousha, simran)  |  95% bootstrap CIs
+====================================================================================================
+
+AvgHuman vs Gemini  (per dimension)
+  Dimension                               Pearson         [95% CI]   Spearman         [95% CI]    Kappa    MAE   Human  Gemini
+  ------------------------------------------------------------------------------------------------
+  A_source_cultural_appropriateness        +0.526 [+0.353,+0.678]     +0.482 [+0.311,+0.647]   +0.101  0.990    2.44    1.83
+  B_adapted_cultural_appropriateness       +0.624 [+0.422,+0.768]     +0.482 [+0.305,+0.629]   +0.140  0.515    4.43    4.60
+  C_semantic_preservation                     nan [   nan,   nan]        nan [   nan,   nan]   +0.000  0.470    4.53    5.00
+  D_visual_coherence                       +0.364 [+0.166,+0.532]     +0.339 [+0.148,+0.509]   +0.102  0.545    4.38    4.73
+  E_structural_similarity                  +0.653 [+0.469,+0.783]     +0.521 [+0.338,+0.670]   +0.236  0.370    4.53    4.63
+  overall_success                          +0.606 [+0.436,+0.748]     +0.442 [+0.234,+0.616]   +0.046  1.020    3.73    4.20
+
+----------------------------------------------------------------------------------------------------
+
+Full Score Vector  (all 6 dims × 100 pairs = 600 values)
+  Comparison                    Pearson         [95% CI]   Spearman         [95% CI]    MAE
+  --------------------------------------------------------------------------------------
+  Yousha vs gemini               +0.721 [+0.662,+0.772]     +0.605 [+0.537,+0.662]  0.728
+  simran vs gemini               +0.571 [+0.494,+0.644]     +0.499 [+0.416,+0.571]  0.685
+  avg_human vs gemini            +0.756 [+0.704,+0.802]     +0.623 [+0.557,+0.676]  0.652
+  IAA (Yousha/Simran)            +0.488 [+0.401,+0.573]     +0.414 [+0.335,+0.496]  0.993
+
+----------------------------------------------------------------------------------------------------
+
+Per-Annotator vs Gemini
+  Dimension                              Pearson(Y) Pearson(S)  Spearman(Y) Spearman(S)
+  ------------------------------------------------------------------------------------
+  A_source_cultural_appropriateness          +0.549     +0.371       +0.481      +0.388
+  B_adapted_cultural_appropriateness         +0.570     +0.344       +0.510      +0.217
+  C_semantic_preservation                       nan        nan          nan         nan
+  D_visual_coherence                         +0.243     +0.318       +0.238      +0.323
+  E_structural_similarity                    +0.670     +0.101       +0.534      +0.056
+  overall_success                            +0.564     +0.372       +0.382      +0.257
+
+----------------------------------------------------------------------------------------------------
+
+Inter-Annotator Agreement  (Yousha vs Simran)
+  Dimension                               Pearson  Spearman    Kappa    MAE
+  ------------------------------------------------------------------------
+  A_source_cultural_appropriateness        +0.507    +0.486   +0.048  1.360
+  B_adapted_cultural_appropriateness       +0.111    +0.112   +0.056  0.750
+  C_semantic_preservation                  +0.039    -0.032   -0.055  0.820
+  D_visual_coherence                       +0.177    +0.199   +0.054  0.790
+  E_structural_similarity                  +0.155    +0.167   +0.103  0.820
+  overall_success                          +0.227    +0.177   +0.112  1.420
+
+====================================================================================================
